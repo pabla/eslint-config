@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-pabla",
+  "version": "0.1.0",
+  "description": "Pabla ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabla/eslint-config.git"
+  },
+  "author": "Kanin Pavel <kanin.pavel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pabla/eslint-config/issues"
+  },
+  "homepage": "https://github.com/pabla/eslint-config#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "15.1.0",
+    "eslint-config-prettier": "2.4.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-prettier": "2.2.0",
+    "eslint-plugin-react": "7.3.0",
+    "eslint-plugin-jsx-a11y": "5.1.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
+    "prettier": "^1.7.0"
+  }
+}
