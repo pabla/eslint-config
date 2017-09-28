@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pabla",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Pabla ESLint config",
   "main": "index.js",
   "repository": {
@@ -16,10 +16,11 @@
   "dependencies": {
     "eslint-config-airbnb": "15.1.0",
     "eslint-config-prettier": "2.4.0",
+    "eslint-plugin-flowtype": "2.36.0",
     "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "5.1.1",
     "eslint-plugin-prettier": "2.2.0",
-    "eslint-plugin-react": "7.3.0",
-    "eslint-plugin-jsx-a11y": "5.1.1"
+    "eslint-plugin-react": "7.3.0"
   },
   "peerDependencies": {
     "babel-eslint": "^8.0.0",

@@ -13,7 +13,7 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['prettier'],
+  plugins: ['prettier', 'flowtype'],
   rules: {
     'prettier/prettier': [
       'error',
@@ -27,5 +27,10 @@ module.exports = {
     'react/prop-types': 'off',
     'react/require-default-props': 'off',
   },
-  extends: ['airbnb', 'prettier', 'prettier/react'],
+  extends: [
+    'airbnb',
+    'prettier',
+    'prettier/react',
+    'plugin:flowtype/recommended',
+  ],
 };
