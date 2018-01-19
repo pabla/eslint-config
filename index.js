@@ -21,6 +21,7 @@ module.exports = {
         singleQuote: true,
         trailingComma: 'es5',
         jsxBracketSameLine: true,
+        printWidth: 100,
       },
     ],
     'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
