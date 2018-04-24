@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-pabla",
-  "version": "0.2.2",
+  "name": "@pabla/eslint-config",
+  "version": "0.2.4",
   "description": "Pabla ESLint config",
   "main": "index.js",
   "repository": {
